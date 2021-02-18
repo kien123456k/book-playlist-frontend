@@ -1,0 +1,101 @@
+@import './bttn.scss';
+
+body {
+  background-image: linear-gradient(to right, #d6ff7f, #00b3cc);
+  font-family: 'Bubblegum Sans', cursive;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+#main {
+  padding: 0px;
+  box-sizing: border-box;
+  width: 65%;
+  height: 100%;
+  h1 {
+    color: #444;
+    text-align: center;
+  }
+}
+
+#book-list {
+  padding: 0;
+  li {
+    display: inline-block;
+    margin: 6px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  button {
+    outline: none;
+  }
+  h3 {
+    color: #222;
+    text-align: center;
+  }
+}
+
+form {
+  background: #fdcb6e;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 400px;
+  .field {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  label {
+    text-align: right;
+    padding: 6px;
+  }
+  input,
+  select {
+    margin: 4px 0;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+  button {
+    color: #fff;
+    font-size: 3em;
+    background: #ad1457;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    bottom: 1vw;
+    left: 1vw;
+  }
+}
+
+#book-details {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 35%;
+  height: 100%;
+  background-image: linear-gradient(to right, #d73350, #fc6f69);
+  padding: 30px;
+  overflow: auto;
+  box-shadow: -2px -3px 5px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  color: #b2bec3;
+  h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+  }
+  h3 {
+    text-align: center;
+    margin-top: 40%;
+    color: #fff;
+  }
+  span,
+  ul {
+    color: #fff;
+  }
+}
