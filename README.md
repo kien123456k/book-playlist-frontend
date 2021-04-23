@@ -1,4 +1,5 @@
 # ![Logo](./public/favicon.ico) Book Playlist
+A cool Book Playlist to store my favorite book.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and using [GraphQL](https://graphql.org/) to communicate with [Express](pressjs.com) server.
 
