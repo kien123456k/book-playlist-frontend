@@ -3,6 +3,7 @@
 ## What is Book Playlist?
 A cool Book Playlist to store your favorite books. 
 
+Here is [the Backend](https://github.com/kien123456k/book-playlist-backend) that this app using.
 ## Technology
 - Frontend
   - React - A JavaScript library for building user interfaces
