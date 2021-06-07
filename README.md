@@ -14,6 +14,9 @@ Here is [the Backend](https://github.com/kien123456k/book-playlist-backend) that
   - GraphQL + Express GraphQL - API Query Language Server
   - Mongoose + MongoDB - Database
 
+## Some preview images
+<img src="./docs/images/home.png" width="800" height="393"/>
+
 ## Available Scripts
 
 In the project directory, you can run:
